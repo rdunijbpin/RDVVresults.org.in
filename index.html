@@ -19,6 +19,15 @@
     display: flex;
     align-items: center;
 }
+		@keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    .blinking-text {
+        animation: blink 1s infinite;
+    }
 .menu-bar {
     background-color: brown;
 }
@@ -140,5 +149,6 @@
             <input type="submit" value="Submit">
         </form>
     </div>
+	<p class="blinking-text">MBA 2023-2024 results are out</p>
 </body>
 </html>
