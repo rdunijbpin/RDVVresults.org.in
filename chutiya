@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Video</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+ img {
+      width: 450px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+</style>
+</head>
+<body>
+<div>
+    <img src="chutiya.jpg">
+    <!-- Add additional source elements for different video formats if necessary -->
+</div>
+
+</body>
+</html>
